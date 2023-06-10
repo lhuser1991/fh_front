@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Honor - Inscription</title>
+    <link rel="stylesheet" href="./css/styleC.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="./index.html">
+                <img id="logo" src="./img/forhonor_logo1.png" alt="forhonor">
+            </a>
+            <div id="nav-1">
+                <a href="./index.html">Accueil</a>
+                <a href="./histoire.html">Histoires</a>
+                <a href="./faction.html">Factions</a>
+                <a href="./hero.html">Heros</a>
+                <a href="./inscription.html">Inscription</a>
+            </div>
+            <div id="nav-2">
+                <form action="index.html" method="post">
+                    <input type="text" name="pseudo" id="connexion-pseudo" placeholder="pseudo" required>
+                    <input type="password" name="mdp" id="connexion-mdp" placeholder="mdp" required>
+                    <input type="submit" name="connnexion" value="Connnexion">
+                </form>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Inscrivez vous</h1>
+
+        <form id="inscription" action="inscription.html" method="post">
+
+            <div id="form-part1">
+
+                <div class="form-elmt">
+                    <label for="nom">Nom : </label>
+                    <input class="txt-field" type="text" name="nom" id="nom" required>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="prenom">Prenom : </label>
+                    <input class="txt-field" type="text" name="prenom" id="prenom" required>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="age">Age : </label>
+                    <input class="txt-field" type="number" name="age" id="age" required>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="email">Email : </label>
+                    <input class="txt-field" type="email" name="email" id="email" required>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="pseudo">Pseudo : </label>
+                    <input class="txt-field" type="text" name="pseudo" id="pseudo" required>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="mdp">Mot de passe : </label>
+                    <input class="txt-field" type="password" name="mdp" id="mdp" required>
+                </div>
+
+                <div class="form-elmt">
+                    <p>Genre : </p>
+                    <div class="genre-field">
+                        <input type="radio" name="genre" id="homme" value="homme" required>
+                        <label for="homme">Homme</label>
+                        <input type="radio" name="genre" id="femme" value="femme" required>
+                        <label for="femme">Femme</label>
+                        <input type="radio" name="genre" id="autre" value="autre" required>
+                        <label for="autre">Autres</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="form-part2">
+                <div class="form-elmt">
+                    <label for="faction">Factions : </label>
+                    <select class="faction-field" name="faction" id="faction">
+                        <option value="unknown">-Choisissez votre faction-</option>
+                        <option value="knights">Chevaliers</option>
+                        <option value="vikings">Vikings</option>
+                        <option value="samourais">Samouraïs</option>
+                    </select>
+                </div>
+
+                <div class="form-elmt">
+                    <p>Heros favoris : </p>
+
+                    <div class="hero-field">
+                        <input type="checkbox" name="warden" id="warden">
+                        <label for="warden">Sentinelle</label>
+                        <input type="checkbox" name="conqueror" id="conqueror">
+                        <label for="conqueror">Fléau</label>
+                        <input type="checkbox" name="peacekeeper" id="peacekeeper">
+                        <label for="peacekeeper">Spadassin</label>
+                        <input type="checkbox" name="lawbringer" id="lawbringer">
+                        <label for="lawbringer">Emissaire</label>
+                    </div>
+
+                    <div class="hero-field">
+                        <input type="checkbox" name="raider" id="raider">
+                        <label for="raider">Hersir</label>
+                        <input type="checkbox" name="warlord" id="warlord">
+                        <label for="warlord">Jarl</label>
+                        <input type="checkbox" name="berserker" id="berserker">
+                        <label for="berserker">Berserker</label>
+                        <input type="checkbox" name="valkyrie" id="valkyrie">
+                        <label for="valkyrie">Valkyrie</label>
+                    </div>
+
+                    <div class="hero-field">
+                        <input type="checkbox" name="kensei" id="kensei">
+                        <label for="kensei">Kensei</label>
+                        <input type="checkbox" name="shugoki" id="shugoki">
+                        <label for="shugoki">Shugoki</label>
+                        <input type="checkbox" name="orochi" id="orochi">
+                        <label for="orochi">Orochi</label>
+                        <input type="checkbox" name="nobushi" id="nobushi">
+                        <label for="nobushi">Nobushi</label>
+                    </div>
+                </div>
+
+                <div class="form-elmt">
+                    <label for="commentaire">A propos de vous : </label>
+                    <textarea class="commentaire-field" id="commentaire" name="commentaire" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-elmt-envoie">
+                    <input type="submit" name="valider" value="Valider">
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Rejoignez nous sur les réseaux sociaux et combattez au sein de votre faction.</p>
+        <div class="lien-reseaux-sociaux">
+            <a href="https://fr-fr.facebook.com/"><img src="./img/fb_icon.png" alt="fb"></a>
+            <a href="https://www.instagram.com/?hl=fr"><img src="./img/inst_icon.webp" alt="inst"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.separateur {
+    border-top: 2px solid white;
+    width: 75%;
+    margin: .5em auto;
+}
+
+/* ---------- HEADER ---------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0em 1em;
+}
+
+#logo {
+    width: 9em;
+}
+
+#nav-1 a {
+    margin: 0em 1em;
+}
+
+#logo, #nav-1, #nav-2 {
+    margin: 0em .5em;
+}
+
+#nav-2 form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-2 form input{
+    width: 20%;
+    margin: 0em .5em;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inscription {
+    background: url('../img/forhonor_wallpaper2.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    width: 90%;
+    height: 25em;
+    margin: 1em auto;
+    padding: .5em;
+
+}
+
+#form-part1, #form-part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.form-elmt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.txt-field, .faction-field, .commentaire-field {
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+label , p{
+    margin: .5em;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .lien-reseaux-sociaux a img{
+    width: 4em;
+    margin: 0em .5em;
+}

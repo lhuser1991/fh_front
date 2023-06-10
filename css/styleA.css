@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.separateur {
+    border-top: 2px solid white;
+    width: 50%;
+    margin: .5em auto;
+}
+
+/* ---------- HEADER ---------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0em 1em;
+}
+
+#logo {
+    width: 9em;
+}
+
+#nav-1 a {
+    margin: 0em 1em;
+}
+
+#logo, #nav-1, #nav-2 {
+    margin: 0em .5em;
+}
+
+#nav-2 form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-2 form input{
+    width: 20%;
+    margin: 0em .5em;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: 0em 1em;
+}
+
+#knights-section  {
+    background: url('../img/forhonor_wallpaper4.webp') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#vikings-section  {
+    background: url('../img/forhonor_wallpaper5.jpg') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#samourais-section  {
+    background: url('../img/forhonor_wallpaper6.webp') no-repeat 50% 50%;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+    border-radius: 5px;
+
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+
+    background: rgba(0,0,0,0.4);
+    color: white;
+}
+
+.hero-selection {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* border: 1px solid white; */
+}
+
+.hero-selection .hero {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-selection .hero:hover {
+    background: rgba(0,0,0,0.4);
+    transition: 1s;
+}
+
+.hero-selection .hero figure{
+    margin: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-selection .hero figure img{
+    width: 95%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.hero-selection .hero figure figcaption{
+    text-align: center;
+}
+
+.hero-selection .hero ul{
+    padding: 0em 1em 0em 2em;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .lien-reseaux-sociaux a img{
+    width: 4em;
+    margin: 0em .5em;
+}

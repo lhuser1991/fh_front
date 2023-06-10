@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.separateur {
+    border-top: 2px solid white;
+    width: 75%;
+    margin: .5em auto;
+}
+
+/* ---------- HEADER ---------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 0em 1em;
+}
+
+#logo {
+    width: 9em;
+}
+
+#nav-1 a {
+    margin: 0em 1em;
+}
+
+#logo, #nav-1, #nav-2 {
+    margin: 0em .5em;
+}
+
+#nav-2 form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-2 form input{
+    width: 20%;
+    margin: 0em .5em;
+}
+/* ---------- MAIN ---------- */
+
+main {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 75%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75%;
+    padding: 1em;
+}
+
+article p {
+    width: 100%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25%;
+    padding: 1em;
+}
+
+aside img{
+    width: 100%;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .lien-reseaux-sociaux a img{
+    width: 4em;
+    margin: 0em .5em;
+}
